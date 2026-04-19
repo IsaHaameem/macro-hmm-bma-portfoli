@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data (Avoid pushing huge raw CSVs, but keep the sample ones)
+data/raw/
+data/processed/
+
+# Models
+models/saved/*.zip
+models/saved/*.pth
+
+# Streamlit/OS
+.streamlit/
+.DS_Store
